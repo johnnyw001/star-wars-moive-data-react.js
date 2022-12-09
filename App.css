@@ -1,0 +1,59 @@
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  /* background-color: white; */
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #FFE81F;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+/* img {
+  object-fit: contain;
+  height: 350px;
+} */
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #000;
+  border: 1px solid #FFE81F;
+  color: #FFE81F;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
